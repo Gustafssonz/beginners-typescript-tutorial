@@ -8,8 +8,7 @@ interface User {
 }
 
 /**
- * How do we ensure that defaultUser is of type User
- * at THIS LINE - not further down in the code?
+ * How to default the object to have a default value AND be typed?
  */
 const defaultUser = {};
 

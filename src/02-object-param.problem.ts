@@ -19,3 +19,8 @@ it("Should add the two numbers together", () => {
     }),
   ).toEqual(30);
 });
+
+
+
+
+// https://www.typescripttutorial.net/typescript-tutorial/typescript-interface/

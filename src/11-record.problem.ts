@@ -34,3 +34,6 @@ it("Should remove values to the cache", () => {
 
   expect(cache.cache["123"]).toEqual(undefined);
 });
+
+
+// https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type

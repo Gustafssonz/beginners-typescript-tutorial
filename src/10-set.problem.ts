@@ -1,6 +1,7 @@
 import { expect, it } from "vitest";
 import { Equal, Expect } from "./helpers/type-utils";
 
+// How do we make sure that the Set only contains strings?
 const guitarists = new Set();
 
 guitarists.add("Jimi Hendrix");

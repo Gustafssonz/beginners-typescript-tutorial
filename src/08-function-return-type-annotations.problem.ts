@@ -32,3 +32,6 @@ it("Should return a valid user", () => {
   expect(user.posts[0].id).toBeTypeOf("number");
   expect(user.posts[0].title).toBeTypeOf("string");
 });
+
+
+// https://www.typescripttutorial.net/typescript-tutorial/typescript-functions/
