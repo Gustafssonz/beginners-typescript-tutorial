@@ -18,3 +18,6 @@ addListener((isFocused) => {
 
   type tests = [Expect<Equal<typeof isFocused, boolean>>];
 });
+
+
+// https://www.typescriptlang.org/docs/handbook/2/functions.html#function-type-expressions

@@ -28,3 +28,6 @@ type tests = [
   Expect<Equal<Post, { id: string; title: string; body: string }>>,
   Expect<Equal<Comment, { id: string; comment: string }>>,
 ];
+
+
+// https://www.typescriptlang.org/docs/handbook/2/objects.html#extending-types

@@ -33,3 +33,5 @@ it("Should create the user, then get them", async () => {
     lastName: "Pocock",
   });
 });
+
+// https://bobbyhadz.com/blog/typescript-function-return-type-promise

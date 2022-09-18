@@ -14,3 +14,8 @@ interface User {
 type MyType = unknown;
 
 type tests = [Expect<Equal<MyType, { firstName: string; lastName: string }>>];
+
+
+// https://www.typescriptlang.org/docs/handbook/utility-types.html#omittype-keys
+// 
+// https://www.typescriptlang.org/docs/handbook/utility-types.html#picktype-keys
